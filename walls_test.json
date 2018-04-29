@@ -1,0 +1,20 @@
+{ 
+"walls": 
+	[
+		{
+			"title": "some",
+			"year": "1988",
+			"url": "https://raw.githubusercontent.com/enricocid/Music-Player-GO/master/icon2.png",
+		},
+		{
+			"title": "two",
+			"year": "1989",
+			"url": "https://raw.githubusercontent.com/enricocid/Music-Player-GO/master/art16.png",
+		},
+		{
+			"title": "three",
+			"year": "1986",
+			"url": "https://github.com/enricocid/ColorBox-library/blob/master/files/art.png",
+		}
+	]
+}
