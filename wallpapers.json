@@ -1,0 +1,23 @@
+{ 
+"walls": 
+	[
+		{
+			"url": "https://raw.githubusercontent.com/enricocid/Music-Player-GO/master/icon2.png",
+			"name": "some",
+			"author": "someone",
+			"year": "1988"
+		},
+		{
+			"url": "https://raw.githubusercontent.com/enricocid/Music-Player-GO/master/art16.png",
+			"name": "two",
+			"author": "someone_nice",
+			"year": "1989"
+		},
+		{
+			"url": "https://raw.githubusercontent.com/enricocid/Music-Player-GO/master/art16.png",
+			"name": "three",
+			"author": "someone_mad",
+			"year": "1986"
+		}
+	]
+}
