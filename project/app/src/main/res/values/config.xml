@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="json_url">https://raw.githubusercontent.com/enricocid/walls/master/wallpapers.json</string>
+    <string name="array_identifier">walls</string>
+    <string name="zero_identifier">url</string>
+    <string name="first_identifier">thumb</string>
+    <string name="second_identifier">name</string>
+    <string name="third_identifier">author</string>
+    <string name="fourth_identifier">year</string>
+    <color name="accent_light">@android:color/black</color>
+    <color name="accent_dark">@android:color/white</color>
+    <color name="icon_color_dark">@color/accent_dark</color>
+    <color name="icon_color_light">@color/accent_light</color>
+</resources>

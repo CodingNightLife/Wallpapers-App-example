@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Base application themes -->
+    <style name="AppTheme" parent="android:Theme.Material.Light">
+        <item name="icon_color">@color/icon_color_light</item>
+        <item name="bg_color">@color/bg_light</item>
+        <item name="android:colorControlActivated">@color/accent_light</item>
+        <item name="android:colorEdgeEffect">@color/accent_light</item>
+        <item name="android:alertDialogTheme">@style/AlertDialogStyleLight</item>
+    </style>
+
+    <style name="AppThemeDark" parent="android:Theme.Material">
+        <item name="icon_color">@color/icon_color_dark</item>
+        <item name="bg_color">@color/bg_dark</item>
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:colorControlActivated">@color/accent_dark</item>
+        <item name="android:colorEdgeEffect">@color/accent_dark</item>
+        <item name="android:alertDialogTheme">@style/AlertDialogStyleDark</item>
+    </style>
+
+    <style name="AlertDialogStyleLight" parent="android:Theme.Material.Light.Dialog.Alert">
+        <item name="android:colorAccent">@color/accent_light</item>
+    </style>
+
+    <style name="AlertDialogStyleDark" parent="android:Theme.Material.Dialog.Alert">
+        <item name="android:colorAccent">@color/accent_dark</item>
+        <item name="android:background">@color/dialog_dark</item>
+    </style>
+
+    <!-- WallpaperViewer theme -->
+    <style name="WallpaperViewerTheme" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>>
+        <item name="icon_color">@color/icon_color_light</item>
+        <item name="bg_color">@color/bg_light</item>
+        <item name="android:alertDialogTheme">@style/AlertDialogStyleLight</item>
+    </style>
+
+    <style name="WallpaperViewerThemeDark" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="icon_color">@color/icon_color_dark</item>
+        <item name="bg_color">@color/bg_dark</item>
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:alertDialogTheme">@style/AlertDialogStyleDark</item>
+    </style>
+</resources>

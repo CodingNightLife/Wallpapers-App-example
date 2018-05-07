@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/preference_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="com.enrico.wallpapers.theme"
+        android:summaryOff="@string/pref_theme_sum_off"
+        android:summaryOn="@string/pref_theme_sum_on"
+        android:title="@string/pref_theme" />
+
+
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/pref_grid_options"
+        android:entryValues="@array/pref_grid_values"
+        android:key="com.enrico.wallpapers.grid"
+        android:summary="@string/pref_grid_sum"
+        android:title="@string/pref_grid" />
+</PreferenceScreen>
